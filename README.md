@@ -1,5 +1,5 @@
 # Array
-- [] Two Sum
+- [ ] Two Sum
 
 # Binary
 
