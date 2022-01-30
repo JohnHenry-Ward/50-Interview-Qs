@@ -1,34 +1,66 @@
-# Array
-- [ ] [Two Sum](https://leetcode.com/problems/two-sum/)
-- [ ] [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/)
-- [ ] [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
-- [ ] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-- [ ] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/)
-- [ ] [Maximum Product Subarray](https://leetcode.com/problems/maximum-product-subarray/)
-- [ ] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/)
-- [ ] [Search in Rotated Sorted Array](https://leetcode.com/problems/search-in-rotated-sorted-array/)
-- [ ] [3 Sum](https://leetcode.com/problems/3sum/)
-- [ ] [Container with Most Water](https://leetcode.com/problems/container-with-most-water/)
+# Sequences - Arrays and Strings
+- [ ] [Two Sum]()
+- [ ] [Contains Duplicate]()
+- [ ] [Best Time to Buy and Sell Stock]()
+- [ ] [Valid Anagram]()
+- [ ] [Valid Parenthese]()
+- [ ] [Product of Array Except Self]()
+- [ ] [Maximum Subarray]()
+- [ ] [3 Sum]()
+- [ ] [Merge Intervals]()
+- [ ] [Group Anagrams]()
+- [ ] [Maximum Product Subarray]()
+- [ ] [Search in Rotated Sorted Array]()
 
-# Binary
-- [ ] [Sum of Two Integers]()
-- [ ] [Number of 1 Bits]()
-- [ ] [Counting Bits]()
-- [ ] [Missing Number]()
-- [ ] [Reverse Bits]()
+# Data Structures - Linked Lists, Strings, Matrix
+- [ ] [Reverse a Linked List]()
+- [ ] [Detect Cycle in a Linked List]()
+- [ ] [Container with Most Water]()
+- [ ] [Find Minimum in Rotated Sorted Array]()
+- [ ] [Longest Repeating Character Replacement]()
+- [ ] [Longest Substring without Repeating Characters]()
+- [ ] [Minimum Window Substring]()
+- [ ] [Number of Islands]()
+- [ ] [Remove nth Node from End of List]()
+- [ ] [Palindromic Substrings]()
+- [ ] [Pacific Atlantic Water Flow]()
 
-# Dynamic Programming
+# Non Linear Data Structures - Trees, Graphs, Heaps, Traversal
+- [ ] [Validate Binary Search Tree]()
+- [ ] [Invert/Flip Binary Tree]()
+- [ ] [Non Overlapping Intervals]()
+- [ ] [Serialize and Deserialize Binary Tree]()
+- [ ] [Construct Binary Tree from Preoder and Inorder Traversal]()
+- [ ] [Top K Frequent Elements]()
+- [ ] [Clone Graph]()
+- [ ] [Course Schedule]()
+- [ ] [Binary Tree Maximum Path Sum]()
+- [ ] [Maximum Depth of Binary Tree]()
+- [ ] [Same Tree]()
+- [ ] [Binary Tree Level Order Traversal]()
 
-# Graph
+# More Data Structures - Building on previous sections
+- [ ] [Add and Search Word]()
+- [ ] [Implement Trie (Prefix Tree)]()
+- [ ] [Subtree of Another Tree]()
+- [ ] [Kth Smallest Element in BST]()
+- [ ] [Lowest Common Ancestor of BST]()
+- [ ] [Merge K Sorted Lists]()
+- [ ] [Find Median from Data Stream]()
+- [ ] [Insert Interval]()
+- [ ] [Longest Consecutive Sequence]()
+- [ ] [Word Search II]()
 
-# Interval
+# Dynamic Programming - Important but hard to master, low return on investment
+- [ ] [Climbing Stairs]()
+- [ ] [Coin Change]()
+- [ ] [Longest Increasing Subsequence]()
+- [ ] [Combination Sum]()
+- [ ] [House Robber]()
+- [ ] [House Robber II]()
+- [ ] [Decode Ways]()
+- [ ] [Unique Paths]()
+- [ ] [Jump Game]()
+- [ ] [Word Break Problem]()
 
-# Linked List
-
-# Matrix
-
-# String
-
-# Tree
-
-# Heap
+[Link to the post with the problems](https://techinterviewhandbook.org/best-practice-questions/)
