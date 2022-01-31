@@ -1,5 +1,5 @@
 # Sequences - Arrays and Strings
-- [ ] [Two Sum]()
+- [x] [Two Sum](https://leetcode.com/problems/two-sum/)
 - [ ] [Contains Duplicate]()
 - [ ] [Best Time to Buy and Sell Stock]()
 - [ ] [Valid Anagram]()
