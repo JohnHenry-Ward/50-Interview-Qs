@@ -10,8 +10,11 @@ Second solution: check if num is in dictionary, if no, add it, if yes, we have a
 
 Bonus solution: could sort, then see if any nums match those next to it. Runtime: O(nlogn)
 
+### [Best Time to Buy and Sell Stock](https://leetcode.com/problems/best-time-to-buy-and-sell-stock/submissions/)
+First solution: check every possibly pairing to find the max profit. Runtime: O(n^2)
 
-### [Best Time to Buy and Sell Stock]()
+Second Solution: track the min value and continue to compare that to rest of prices, the min value will always be the best possible day to buy stock. Runtime: O(n)
+
 ### [Valid Anagram]()
 ### [Valid Parenthese]()
 ### [Product of Array Except Self]()
