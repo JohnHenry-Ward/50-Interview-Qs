@@ -3,7 +3,14 @@ First solution: start at index i=0 and j=i+1, check if i+j=target. Once it does,
 
 Second solution: add nums to dictionary for O(1) lookup. Walk through nums and calculate what second value needs to be and check if it exists. O(n) time complexity because of dictionary hashing
 
-### [Contains Duplicate]()
+### [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+First solution: start at index i=0 and j=i+1, check if they ever match. Runtime: o(n^2)
+
+Second solution: check if num is in dictionary, if no, add it, if yes, we have a duplicate. Runtime: O(n)
+
+Bonus solution: could sort, then see if any nums match those next to it. Runtime: O(nlogn)
+
+
 ### [Best Time to Buy and Sell Stock]()
 ### [Valid Anagram]()
 ### [Valid Parenthese]()
