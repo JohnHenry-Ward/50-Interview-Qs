@@ -15,7 +15,9 @@ First solution: check every possibly pairing to find the max profit. Runtime: O(
 
 Second Solution: track the min value and continue to compare that to rest of prices, the min value will always be the best possible day to buy stock. Runtime: O(n)
 
-### [Valid Anagram]()
+### [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+First solution: use a dictionary, keys are chars in s, values are count of those characters, then walk through t and check if it exists in dictionary, decrementing count if it does. Finally, make sure all counts are 0. Runtime: O(mn), n = length of s, m = length of t
+
 ### [Valid Parenthese]()
 ### [Product of Array Except Self]()
 ### [Maximum Subarray]()
