@@ -18,7 +18,9 @@ Second Solution: track the min value and continue to compare that to rest of pri
 ### [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 First solution: use a dictionary, keys are chars in s, values are count of those characters, then walk through t and check if it exists in dictionary, decrementing count if it does. Finally, make sure all counts are 0. Runtime: O(mn), n = length of s, m = length of t
 
-### [Valid Parenthese]()
+### [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/)
+First solution: use a stack to track the brackets. If the current bracket is an open one, push on to stack. If it is a closing one, make sure that a) the stack is non empty, b) the top of the stack (that we have popped) is a closing bracket, and c) the two brackets go together (by comparing the indexes). Once we walk through s, make sure that the stack is empty. Runtime: O(n) Memory: O(n) all of s could be pushed into the stack
+
 ### [Product of Array Except Self]()
 ### [Maximum Subarray]()
 ### [3 Sum]()
