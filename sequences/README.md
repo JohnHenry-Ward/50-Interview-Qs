@@ -21,7 +21,13 @@ First solution: use a dictionary, keys are chars in s, values are count of those
 ### [Valid Parentheses](https://leetcode.com/problems/valid-parentheses/submissions/)
 First solution: use a stack to track the brackets. If the current bracket is an open one, push on to stack. If it is a closing one, make sure that a) the stack is non empty, b) the top of the stack (that we have popped) is a closing bracket, and c) the two brackets go together (by comparing the indexes). Once we walk through s, make sure that the stack is empty. Runtime: O(n) Memory: O(n) all of s could be pushed into the stack
 
-### [Product of Array Except Self]()
+### [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/)
+First solution: walk through nums, each time calculating the product by walking through nums. Runtime: O(n^2)
+
+Second solution: calculate the sum to the left of a number n, and to the right of n. Then multiply each of those together to find the product of all nums except n. Runtime: O(n+n+n) = O(n) Memory: O(2n) = O(n) because of tracking left and right products (using external arrays)
+
+Might be good to re-visit this one
+
 ### [Maximum Subarray]()
 ### [3 Sum]()
 ### [Merge Intervals]()
