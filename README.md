@@ -5,7 +5,7 @@
 - [x] [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [x] [Valid Parenthese](https://leetcode.com/problems/valid-parentheses/submissions/)
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/)
-- [ ] [Maximum Subarray]()
+- [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/submissions/)
 - [ ] [3 Sum]()
 - [ ] [Merge Intervals]()
 - [ ] [Group Anagrams]()
