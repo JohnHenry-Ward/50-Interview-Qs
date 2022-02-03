@@ -28,7 +28,11 @@ Second solution: calculate the sum to the left of a number n, and to the right o
 
 Might be good to re-visit this one
 
-### [Maximum Subarray]()
+### [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/submissions/)
+First solution: track the currMax and keep a runMax. Runmax tracks the running total as long as it is above 0, If runMax < 0, reset to 0. If runMax > currMax, update currMax to runMax. This is Kadane's algorithm (I got about 80% of it)
+
+Might be good to re-visit this one
+
 ### [3 Sum]()
 ### [Merge Intervals]()
 ### [Group Anagrams]()
