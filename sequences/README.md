@@ -33,7 +33,13 @@ First solution: track the currMax and keep a runMax. Runmax tracks the running t
 
 Might be good to re-visit this one
 
-### [3 Sum]()
+### [3 Sum](https://leetcode.com/problems/3sum/submissions/)
+First solution: brute force check all possible triplets. Runtime: O(n^3)
+
+Second solution: fix a value (i) and then have a low and high pointer mover towards each other. Nums must be sorted. Runtime: O(n^2)
+
+Might be good to re-visit this one
+
 ### [Merge Intervals]()
 ### [Group Anagrams]()
 ### [Maximum Product Subarray]()
