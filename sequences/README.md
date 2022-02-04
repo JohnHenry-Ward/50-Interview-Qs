@@ -3,6 +3,8 @@ First solution: start at index i=0 and j=i+1, check if i+j=target. Once it does,
 
 Second solution: add nums to dictionary for O(1) lookup. Walk through nums and calculate what second value needs to be and check if it exists. O(n) time complexity because of dictionary hashing
 
+Third solution: rather than store the number as the value in the dictionary, store the index to make sure the numbers are not the same. Runtime: O(n)
+
 ### [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
 First solution: start at index i=0 and j=i+1, check if they ever match. Runtime: o(n^2)
 

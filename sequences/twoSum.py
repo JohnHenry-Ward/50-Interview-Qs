@@ -23,10 +23,20 @@ def twoSumSol2(nums, target): # O(n)
     for iIndex in range(len(nums)): # O(n)
         j = target - nums[iIndex];
         if (j in myDict): # O(1), uses the dicts hashing
-            if (nums.index(j) != iIndex):
+            if (nums.index(j) != iIndex): # THIS IS NOT CONSTANT TIME
                 rList[0] = iIndex;
                 rList[1] = nums.index(j); # O(n) but only runs once
                 return rList;
+
+def twoSumSol3(nums, target): # O(n)
+    myDict = dict();
+    for n in range(len(nums)):
+        myDict[nums[n]] = n;
+    
+    for n in range(len(nums)):
+        val = target - nums[n];
+        if val in myDict and n != myDict[val]:
+            return [n, myDict[val]];
 
 if __name__ == '__main__':
     nums = [2, 7, 11, 15];
