@@ -6,11 +6,11 @@
 - [x] [Valid Parenthese](https://leetcode.com/problems/valid-parentheses/submissions/)
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/submissions/)
-- [ ] [3 Sum]()
-- [ ] [Merge Intervals]()
+- [x] [3 Sum](https://leetcode.com/problems/3sum/)
+- [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
 - [ ] [Group Anagrams]()
-- [ ] [Maximum Product Subarray]()
-- [ ] [Search in Rotated Sorted Array]()
+- [ ] [Maximum Product Subarray - Optional]()
+- [ ] [Search in Rotated Sorted Array - Optional]()
 
 # Data Structures - Linked Lists, Strings, Matrix
 - [ ] [Reverse a Linked List]()
