@@ -7,8 +7,8 @@
 - [x] [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/submissions/)
 - [x] [Maximum Subarray](https://leetcode.com/problems/maximum-subarray/submissions/)
 - [x] [3 Sum](https://leetcode.com/problems/3sum/)
-- [ ] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
-- [ ] [Group Anagrams]()
+- [x] [Merge Intervals](https://leetcode.com/problems/merge-intervals/)
+- [x] [Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/)
 - [ ] [Maximum Product Subarray - Optional]()
 - [ ] [Search in Rotated Sorted Array - Optional]()
 
