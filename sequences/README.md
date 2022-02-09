@@ -42,7 +42,13 @@ Second solution: fix a value (i) and then have a low and high pointer mover towa
 
 Might be good to re-visit this one
 
-### [Merge Intervals]()
-### [Group Anagrams]()
+### [Merge Intervals](https://leetcode.com/problems/merge-intervals/submissions/)
+First solution: sort intervals by starting value, walk through intervals, add intervals that don't overlap, update most recently added interval that does overlap. Runtime: O(nlogn) bc of sorting
+
+Easy to understand solution, difficult to come up with
+
+### [Group Anagrams](https://leetcode.com/problems/group-anagrams/submissions/)
+First solution: store the anagrams in a dictionary with the values being where they are stored in the results array. If it already exists in dictrionary, append to results, other wise, add to dictionary then add to results. Runtime: O(nlogn)
+
 ### [Maximum Product Subarray]()
 ### [Search in Rotated Sorted Array]()
