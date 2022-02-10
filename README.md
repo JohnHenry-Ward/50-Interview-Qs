@@ -13,7 +13,7 @@
 - [ ] [Search in Rotated Sorted Array - Optional]()
 
 # Data Structures - Linked Lists, Strings, Matrix
-- [ ] [Reverse a Linked List]()
+- [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)
 - [ ] [Detect Cycle in a Linked List]()
 - [ ] [Container with Most Water]()
 - [ ] [Find Minimum in Rotated Sorted Array]()
