@@ -14,8 +14,8 @@
 
 # Data Structures - Linked Lists, Strings, Matrix
 - [x] [Reverse a Linked List](https://leetcode.com/problems/reverse-linked-list/submissions/)
-- [ ] [Detect Cycle in a Linked List]()
-- [ ] [Container with Most Water]()
+- [x] [Detect Cycle in a Linked List](https://leetcode.com/problems/linked-list-cycle/)
+- [x] [Container with Most Water](https://leetcode.com/problems/container-with-most-water/submissions/)
 - [ ] [Find Minimum in Rotated Sorted Array]()
 - [ ] [Longest Repeating Character Replacement]()
 - [ ] [Longest Substring without Repeating Characters]()
