@@ -11,6 +11,7 @@ class LinkedList:
         newNode = Node(data);
         newNode.next = self.head;
         self.head = newNode;
+        return newNode;
 
     def printList(self):
         curr = self.head;
