@@ -6,7 +6,11 @@ First solution: 2 pointers, one fast and one slow, move slow one node at a time,
 
 Second soltuion: same as first, just cleaner
 
-### [Container with Most Water]()
+### [Container with Most Water](https://leetcode.com/problems/container-with-most-water/submissions/)
+First solution: check every possible combo with two pointers. Runtime: O(n^2)
+
+Second solution: have one pointer on the very left and one on the very right. Track maxArea, move the smaller pointer closer to center until they meet. Runtime: O(n)
+
 ### [Find Minimum in Rotated Sorted Array]()
 ### [Longest Repeating Character Replacement]()
 ### [Longest Substring without Repeating Characters]()
