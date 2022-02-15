@@ -11,7 +11,9 @@ First solution: check every possible combo with two pointers. Runtime: O(n^2)
 
 Second solution: have one pointer on the very left and one on the very right. Track maxArea, move the smaller pointer closer to center until they meet. Runtime: O(n)
 
-### [Find Minimum in Rotated Sorted Array]()
+### [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/)
+First solution: sudo binary search. Find the middle element and see if it is larger than the first element. If so, the min is to the right, otherwise it's to the left. Divide array in half and continue. Runtime: O(logn)
+
 ### [Longest Repeating Character Replacement]()
 ### [Longest Substring without Repeating Characters]()
 ### [Minimum Window Substring]()
