@@ -17,7 +17,7 @@ First solution: sudo binary search. Find the middle element and see if it is lar
 ### [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/)
 First solution: check all possible using hash table. Runtime: O(n^2)
 
-Come back to this one to get a better runtime
+Second solution: use a dictionary to track when we last saw a character, and use 2 pointers, i and j, to track the current subsequence. Runtime: O(n)
 
 ### [Longest Substring without Repeating Characters]()
 ### [Minimum Window Substring]()

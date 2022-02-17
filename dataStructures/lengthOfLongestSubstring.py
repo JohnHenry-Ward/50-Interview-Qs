@@ -25,9 +25,23 @@ def lengthOfLongestSubStringSol1(s):
         
     return max(possMax);
 
-
+def lengthOfLongestSubStringSol2(s):
+    currMax = 0;
+    d = {};
+    i = 0;
+    
+    for j in range(len(s)):
+        if s[j] in d: # if we have seen s[j] before
+            if i < d[s[j]]: # if s[j] is in the current sequence
+                i = d[s[j]]; # we need to move i up to the start of a new non repeating sequence, meaning that we move it right after we saw s[j] the previous time
+        
+        currMax = max(currMax, j-i+1); # currMax gets max of itself or of the current sequence s[i:j]
+        d[s[j]] = j+1; # update d[s[j]] to be the most recent time we have seen s[j]
+        
+    return currMax;
 
 
 if __name__ == '__main__':
     s = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789!\"#$%&'()*+,-./:;<=>?@[\\]^_`{|}~ abcdefghijklmnopqrstuvwxyzABC";
     print(lengthOfLongestSubStringSol1(s));
+    print(lengthOfLongestSubStringSol2(s));
