@@ -14,12 +14,13 @@ Second solution: have one pointer on the very left and one on the very right. Tr
 ### [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/)
 First solution: sudo binary search. Find the middle element and see if it is larger than the first element. If so, the min is to the right, otherwise it's to the left. Divide array in half and continue. Runtime: O(logn)
 
-### [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/)
+### [Longest Repeating Character Replacement]()
+
+### [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/)
 First solution: check all possible using hash table. Runtime: O(n^2)
 
 Second solution: use a dictionary to track when we last saw a character, and use 2 pointers, i and j, to track the current subsequence. Runtime: O(n)
 
-### [Longest Substring without Repeating Characters]()
 ### [Minimum Window Substring]()
 ### [Number of Islands]()
 ### [Remove nth Node from End of List]()
