@@ -22,8 +22,10 @@ First solution: check all possible using hash table. Runtime: O(n^2)
 
 Second solution: use a dictionary to track when we last saw a character, and use 2 pointers, i and j, to track the current subsequence. Runtime: O(n)
 
-### [Minimum Window Substring]()
-### [Number of Islands]()
+### [Number of Islands](https://leetcode.com/problems/number-of-islands/)
+First solution: when we see an island, do a DFS to discover the whole island and change the 1 to a 0 so we don't look at it again. Runtime: O(nm)
+
 ### [Remove nth Node from End of List]()
 ### [Palindromic Substrings]()
 ### [Pacific Atlantic Water Flow]()
+### [Minimum Window Substring]()

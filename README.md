@@ -19,7 +19,7 @@
 - [x] [Find Minimum in Rotated Sorted Array](https://leetcode.com/problems/find-minimum-in-rotated-sorted-array/submissions/)
 - [x] [Longest Repeating Character Replacement](https://leetcode.com/problems/longest-substring-without-repeating-characters/)
 - [x] [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/)
-- [ ] [Number of Islands]()
+- [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [ ] [Remove nth Node from End of List]()
 - [ ] [Palindromic Substrings]()
 - [ ] [Pacific Atlantic Water Flow]()
