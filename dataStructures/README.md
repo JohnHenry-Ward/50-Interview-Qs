@@ -30,6 +30,10 @@ First solution: Walk through LL to get count of nodes, then subtract n from coun
 
 Second solution: Have a slow and fast pointer. Increment the fast pointer n times. Then increment both pointers until fast is at the end, at this point slow will be at the node to remove. Again keep a previous pointer to remove the node. Runtime: O(n) (one pass)
 
-### [Palindromic Substrings]()
+### [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
+First solution: Brute force, check all combos. Runtime: O(n^2) + checking the same substrings over and over.
+
+Second solution: Still brute force, but we are storing the palindromic substrings in a dictionary for constant time look up to avoid checking if a substring we've already seen is a palindrome. Runtime: O(n^2)
+
 ### [Pacific Atlantic Water Flow]()
 ### [Minimum Window Substring]()

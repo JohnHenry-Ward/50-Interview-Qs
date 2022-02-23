@@ -21,7 +21,7 @@
 - [x] [Longest Substring without Repeating Characters](https://leetcode.com/problems/longest-substring-without-repeating-characters/submissions/)
 - [x] [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 - [x] [Remove nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/)
-- [ ] [Palindromic Substrings]()
+- [x] [Palindromic Substrings](https://leetcode.com/problems/palindromic-substrings/)
 - [ ] [Pacific Atlantic Water Flow]()
 - [ ] [Minimum Window Substring]()
 
