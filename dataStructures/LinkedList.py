@@ -3,6 +3,12 @@ class Node:
         self.data = data;
         self.next = None;
 
+    def print(self):
+        curr = self;
+        while curr:
+            print(curr.data);
+            curr = curr.next;
+
 class LinkedList:
     def __init__(self):
         self.head = None;

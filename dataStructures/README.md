@@ -25,7 +25,11 @@ Second solution: use a dictionary to track when we last saw a character, and use
 ### [Number of Islands](https://leetcode.com/problems/number-of-islands/)
 First solution: when we see an island, do a DFS to discover the whole island and change the 1 to a 0 so we don't look at it again. Runtime: O(nm)
 
-### [Remove nth Node from End of List]()
+### [Remove nth Node from End of List](https://leetcode.com/problems/remove-nth-node-from-end-of-list/submissions/)
+First solution: Walk through LL to get count of nodes, then subtract n from count to find which node to remove. Walk through LL again keeping a previous pointer. Runtime: O(2n) = O(n) (two passes)
+
+Second solution: Have a slow and fast pointer. Increment the fast pointer n times. Then increment both pointers until fast is at the end, at this point slow will be at the node to remove. Again keep a previous pointer to remove the node. Runtime: O(n) (one pass)
+
 ### [Palindromic Substrings]()
 ### [Pacific Atlantic Water Flow]()
 ### [Minimum Window Substring]()
