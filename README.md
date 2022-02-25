@@ -26,18 +26,18 @@
 - [ ] [Minimum Window Substring]()
 
 # Non Linear Data Structures - Trees, Graphs, Heaps, Traversal
-- [ ] [Validate Binary Search Tree]()
+- [ ] [Maximum Depth of Binary Tree]()
 - [ ] [Invert/Flip Binary Tree]()
+- [ ] [Same Tree]()
+- [ ] [Binary Tree Level Order Traversal]()
+- [ ] [Validate Binary Search Tree]()
 - [ ] [Non Overlapping Intervals]()
-- [ ] [Serialize and Deserialize Binary Tree]()
 - [ ] [Construct Binary Tree from Preoder and Inorder Traversal]()
 - [ ] [Top K Frequent Elements]()
 - [ ] [Clone Graph]()
 - [ ] [Course Schedule]()
+- [ ] [Serialize and Deserialize Binary Tree]()
 - [ ] [Binary Tree Maximum Path Sum]()
-- [ ] [Maximum Depth of Binary Tree]()
-- [ ] [Same Tree]()
-- [ ] [Binary Tree Level Order Traversal]()
 
 # More Data Structures - Building on previous sections
 - [ ] [Add and Search Word]()
