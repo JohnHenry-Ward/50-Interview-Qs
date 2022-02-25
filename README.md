@@ -26,7 +26,7 @@
 - [ ] [Minimum Window Substring]()
 
 # Non Linear Data Structures - Trees, Graphs, Heaps, Traversal
-- [ ] [Maximum Depth of Binary Tree]()
+- [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/)
 - [ ] [Invert/Flip Binary Tree]()
 - [ ] [Same Tree]()
 - [ ] [Binary Tree Level Order Traversal]()
