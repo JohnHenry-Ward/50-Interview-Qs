@@ -28,7 +28,7 @@
 # Non Linear Data Structures - Trees, Graphs, Heaps, Traversal
 - [x] [Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/submissions/)
 - [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
-- [ ] [Same Tree]()
+- [x] [Same Tree](https://leetcode.com/problems/same-tree/)
 - [ ] [Binary Tree Level Order Traversal]()
 - [ ] [Validate Binary Search Tree]()
 - [ ] [Non Overlapping Intervals]()

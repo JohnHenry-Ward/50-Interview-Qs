@@ -4,7 +4,9 @@ First solution: Traverse tree, keeping track of the depth, and returning the dep
 ### [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 First solution: Invert (swap children) each subtree of root, left and right child. Recursivly do this for each child.
 
-### [Same Tree]()
+### [Same Tree](https://leetcode.com/problems/same-tree/)
+First solution: Check if current node in p and q are non none, if so, check if they are equal, if so, continue with left and right child recursivly. Runtime: O(n)
+
 ### [Binary Tree Level Order Traversal]()
 ### [Validate Binary Search Tree]()
 ### [Non Overlapping Intervals]()
