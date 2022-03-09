@@ -7,7 +7,9 @@ First solution: Invert (swap children) each subtree of root, left and right chil
 ### [Same Tree](https://leetcode.com/problems/same-tree/)
 First solution: Check if current node in p and q are non none, if so, check if they are equal, if so, continue with left and right child recursivly. Runtime: O(n)
 
-### [Binary Tree Level Order Traversal]()
+### [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
+First solution: Use a helper function that tracks the level we are at, if it's a new level, append to result, if it's not append to specific index in result. Runtime: O(n)
+
 ### [Validate Binary Search Tree]()
 ### [Non Overlapping Intervals]()
 ### [Construct Binary Tree from Preoder and Inorder Traversal]()
