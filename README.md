@@ -30,7 +30,7 @@
 - [x] [Invert/Flip Binary Tree](https://leetcode.com/problems/invert-binary-tree/)
 - [x] [Same Tree](https://leetcode.com/problems/same-tree/)
 - [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
-- [ ] [Validate Binary Search Tree]()
+- [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [ ] [Non Overlapping Intervals]()
 - [ ] [Construct Binary Tree from Preoder and Inorder Traversal]()
 - [ ] [Top K Frequent Elements]()
