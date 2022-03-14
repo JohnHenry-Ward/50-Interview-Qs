@@ -13,7 +13,9 @@ First solution: Use a helper function that tracks the level we are at, if it's a
 ### [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 First solution: Keep track of an upper and lower limit that represents the value 2 values that a node has to be between. (would be smart to come back to this one to get a better understanding)
 
-### [Non Overlapping Intervals]()
+### [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
+First solution: Greedy approach, sort the intervals by the end value. Track the largest ending value we've seen, that is what we want to get rid of. Runtime: O(nlogn) for sorting
+
 ### [Construct Binary Tree from Preoder and Inorder Traversal]()
 ### [Top K Frequent Elements]()
 ### [Clone Graph]()
