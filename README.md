@@ -32,7 +32,7 @@
 - [x] [Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/)
 - [x] [Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/)
 - [x] [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
-- [ ] [Construct Binary Tree from Preoder and Inorder Traversal]()
+- [ ] [Construct Binary Tree from Preoder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/)
 - [ ] [Top K Frequent Elements]()
 - [ ] [Clone Graph]()
 - [ ] [Course Schedule]()

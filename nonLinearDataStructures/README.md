@@ -16,7 +16,9 @@ First solution: Keep track of an upper and lower limit that represents the value
 ### [Non Overlapping Intervals](https://leetcode.com/problems/non-overlapping-intervals/)
 First solution: Greedy approach, sort the intervals by the end value. Track the largest ending value we've seen, that is what we want to get rid of. Runtime: O(nlogn) for sorting
 
-### [Construct Binary Tree from Preoder and Inorder Traversal]()
+### [Construct Binary Tree from Preoder and Inorder Traversal](https://leetcode.com/problems/construct-binary-tree-from-preorder-and-inorder-traversal/submissions/)
+First solution: use preorder to get the root, use inorder to get the subtrees around the root. recursivly build tree. Would be good to come back to this one to get solution on own. Runtime: O(n^2) (could be O(n) if we use a hash table to look up the index).
+
 ### [Top K Frequent Elements]()
 ### [Clone Graph]()
 ### [Course Schedule]()
